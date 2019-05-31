@@ -1,0 +1,39 @@
+{
+  "name": "@ckeditor/real-time-collaboration-for-angular",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve -o",
+    "build": "cd vendor/ckeditor5 && npm run build && cd ../.. && ng build --sourceMap=false"
+  },
+  "dependencies": {
+    "@angular/common": "~7.2.0",
+    "@angular/compiler": "~7.2.0",
+    "@angular/core": "~7.2.0",
+    "@angular/forms": "~7.2.0",
+    "@angular/platform-browser": "~7.2.0",
+    "@angular/platform-browser-dynamic": "~7.2.0",
+    "@ckeditor/ckeditor5-angular": "^1.1.0",
+    "core-js": "^2.5.4",
+    "rxjs": "~6.3.3",
+    "tslib": "^1.9.0",
+    "zone.js": "~0.8.26"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "~0.13.0",
+    "@angular/cli": "~7.3.8",
+    "@angular/compiler-cli": "~7.2.0",
+    "@types/node": "~8.9.4",
+    "raw-loader": "^1.0.0",
+    "ts-node": "~7.0.0",
+    "typescript": "~3.2.2"
+  },
+  "engines": {
+    "node": ">=6.9.0",
+    "npm": ">=3.0.0"
+  },
+  "author": "CKSource (https://cksource.com/)",
+  "homepage": "https://ckeditor.com",
+  "license": "SEE LICENSE IN ../LICENSE.md"
+}
