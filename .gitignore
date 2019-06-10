@@ -6,6 +6,9 @@
 # Only exists if Bazel was run
 /bazel-out
 
+dist
+vendor/ckeditor5/build
+
 # dependencies
 node_modules
 
